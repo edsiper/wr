@@ -1,0 +1,6 @@
+TO-DO
+=====
+- Iterate N times over same concurrency to gather min, ave and max
+- Print details from the system in the report
+- Auto-flush the report to a file instead of stdout only
+- Gather Kernel information setup
