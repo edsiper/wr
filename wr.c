@@ -218,7 +218,7 @@ int main(int argc, char **argv)
         conc_bench += conc_step;
         memset(buf, '\0', sizeof(buf));
         snprintf(buf, buf_size - 1, BC_BIN,
-                 requests, conc_bench, " -k ", "http://127.0.0.1:2001/linux.jpg");
+                 requests, conc_bench, keepalive > 0 ? "-k": "", argv[argc - 1]);
     }
 
     printf("\n--\n");
