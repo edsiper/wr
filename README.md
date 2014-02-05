@@ -1,11 +1,13 @@
 # Watch Resources
 
----
-
 ### Project moved to:
 
 http://github.com/monkey/monkey-bench
 
+the project have been renamed and is maintained in the URL provided.
+
+
+### Old description
 
 This tool aims to work like a wrapper over weighttp to benchmark web
 servers. It perform test under different levels of concurrency, as well
