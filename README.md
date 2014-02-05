@@ -1,7 +1,14 @@
-Watch Resources
-===============
-This tool aims to work like a wrapper over weighttp to benchmark web 
-servers. It perform test under different levels of concurrency, as well 
+# Watch Resources
+
+---
+
+### Project moved to:
+
+http://github.com/monkey/monkey-bench
+
+
+This tool aims to work like a wrapper over weighttp to benchmark web
+servers. It perform test under different levels of concurrency, as well
 it takes snapshots of different metric such as user time, system time and
 memory used.
 
